@@ -1,14 +1,15 @@
 class pokemon {
     constructor(name){
       this.name = name
+      this.hey= this.hey
     }
-}
-function sayHello(){
-  console.log('Mi pokemon ${this.name} te saluda')
-}
+    sayHello(){
+    console.log(`Mi pokemon ${this.name} te saluda!`)
+    }
 
-function sayMessage(){
-  console.log('Mi pokemon ${this.name} dice:')
+    sayMessage(){
+    console.log(`Mi pokemon ${this.name} dice: "Hey!"`)
+    }
 }
 
 module.exports= pokemon
