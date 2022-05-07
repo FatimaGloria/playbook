@@ -10,7 +10,7 @@ const user= {
 }
 
 // Objeto Restaurant
-const restaurant={
+const restaurant= {
     restaurantName: "Name",
     ratingStars: 4,
     waitingTime: 30,
@@ -22,6 +22,20 @@ const restaurant={
         promos: "Promos",
         generalMenu: "List of Dishes",
         extras: "Extras"
-    }
+    } 
+}
 
+// Objeto order
+const order= {
+    userAddress: "Address",
+    deliveryOptions: {
+        outside: "Leave it outside",
+        atDoor: "Meet me at the door"
+    },
+    paymentOptions: {
+        creditCard: "credit card info",
+        cash: "Max. 600 pesos"
+    },
+    orderInfo: "Order info",
+    total: "Total of your order"
 }
