@@ -70,3 +70,8 @@ explorers.forEach(explorer => console.log(explorer.stack))
 // 2.3 Crea una nueva lista con las listas de stacks de cada explorer, usa MAP
 console.log("3: Imprimiendo una nueva lista con las listas de stacks de cada explorer")
 const stackLists = explorers.map(newStackList => (newStackList.stack))
+
+// 2.4 Obtén la lista de explorers que tengan en su stack "js", usa FILTER (para validar un elemento en un lista se usa el método includes)
+console.log('4: Imprimiendo la lista de explorers que tengan en su stack "js"')
+const stackJS = explorers.filter(explorerStack => explorerStack.stack.includes("js"))
+console.log(stackJS)
