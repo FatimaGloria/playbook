@@ -84,4 +84,9 @@ console.log(findExplorer)
 // 2.6 Obtén la suma de todos los exercises_completed, usa REDUCE
 console.log("6: Obtén la suma de todos los exercises_completed")
 const totalExercises = explorers.reduce((acc, element) => acc + element.exercises_completed, 0)
-console.log(totalExercises)
+console.log(totalExercises) 
+
+//2.7 Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME
+console.log("7: Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend")
+const frontendCompleted = explorers.some(frontendMission => frontendMission.exercisesFinished === true)
+console.log(frontendCompleted)
