@@ -58,3 +58,7 @@ const explorers = [
       }
     }
    ]
+
+// 2.1 Imprime el nombre (propiedad name) de cada explorer en la lista, usa FOR EACH
+console.log("1: Imprimiendo los elementos nombre de una lista")
+explorers.forEach(explorer => console.log(explorer.name))
