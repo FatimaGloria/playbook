@@ -20,9 +20,7 @@ class repo {
     }
    }
 
-   const myRepo = new repo("LaunchX", "carlogilmar", "JavaScrit", 100, 199, 299, 10, 10)
-   console.log(myRepo)
-   console.log(myRepo.getTotalIssues())
-   console.log(myRepo.getGeneralInfo())
-   
-   
+   const repo1 = new repo("LaunchX", "carlogilmar", "JavaScrit", 100, 199, 299, 10, 10)
+   console.log(repo1)
+   console.log(repo1.getTotalIssues())
+   console.log(repo1.getGeneralInfo())
