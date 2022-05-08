@@ -1,8 +1,7 @@
-# Weekly Mission 3
+# Weekly Mission 3 :wave:
 
-## Semana 3 
 
-Proyectos desarrollados en la semana 3:
+:rocket: Proyectos desarrollados en la semana 3:
 
 | Proyecto | Práctica | Link al repo |
 | ------------- |:-------------:| -----:|
