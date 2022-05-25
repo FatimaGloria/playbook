@@ -9,4 +9,4 @@
 |`spiderverse`|2|[Diseño de Software con TDD](https://github.com/FatimaGloria/TDD_en_JS.git)|
 |`twitter`|3, 4, 5|[Models, Services y Views](https://github.com/FatimaGloria/Twitter.git)|
 |`express_basic`|6|[Express.js](https://github.com/FatimaGloria/express_basic)|
-|`express_api`|7|[Link al repo](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS)|
+|`express_api`|7|[API y endpoints](https://github.com/FatimaGloria/express_api_launchx)|
